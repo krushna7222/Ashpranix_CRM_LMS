@@ -1,10 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const LandinPage = () => {
   return (
     <div>
-      <h2>  Helloooooooooooo</h2>
-     
+      
+     <Navbar/>
     </div>
   )
 }
