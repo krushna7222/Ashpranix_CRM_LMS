@@ -88,8 +88,11 @@ function App() {
   return (
     <main className="App  relative">
       <Routes>
-        <Route path="/" element={<AuthLayout />}>
-          <Route path="/" element={<Login />} />
+        {/* navbar route */}
+
+        <Route path="/" element={<AuthLayout   />}>
+        {/* <Route path="/" element={<AuthLayout />}>
+          <Route path="/" element={<Login />} /> */}
           <Route path="/login2" element={<Login2 />} />
           <Route path="/register" element={<Register />} />
           <Route path="/register2" element={<Register2 />} />
