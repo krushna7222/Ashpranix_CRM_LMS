@@ -84,7 +84,7 @@ const BoardsPage = lazy(() => import("./pages/app/boards"));
 import Layout from "./layout/Layout";
 import Loading from "@/components/Loading";
 import AuthLayout from "./layout/AuthLayout";
-import LandinPage from "./layout/LandinPage";
+import LandinPage from "./LandingPage/LandinPage";
 function App() {
   return (
     <main className="App  relative">
