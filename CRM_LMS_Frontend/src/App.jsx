@@ -84,13 +84,14 @@ const BoardsPage = lazy(() => import("./pages/app/boards"));
 import Layout from "./layout/Layout";
 import Loading from "@/components/Loading";
 import AuthLayout from "./layout/AuthLayout";
+import LandinPage from "./layout/LandinPage";
 function App() {
   return (
     <main className="App  relative">
       <Routes>
         {/* navbar route */}
 
-        <Route path="/" element={<AuthLayout   />}>
+        <Route path="/" element={<LandinPage/>}>
         {/* <Route path="/" element={<AuthLayout />}>
           <Route path="/" element={<Login />} /> */}
           <Route path="/login2" element={<Login2 />} />
